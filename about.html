@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css" >
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Glozzom</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="about-us" class="py-5 text-center text-white">
+    <div class="dark-overly py-5">
+      <div class="container">
+        <h1>About US</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda nam. Nam dolor natus qui?</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="about-content">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-6">
+          <h1>What We Do?</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusamus veritatis optio inventore dolore labore voluptates nemo itaque veniam, nisi, libero reiciendis quis voluptate ea vel earum et ipsum consectetur deleniti hic magnam cum, nihil laudantium. Doloribus, excepturi dignissimos nisi consectetur fugiat iure voluptate doloremque?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla reiciendis aliquid laborum itaque, et esse ad veritatis aperiam ipsa neque tempore quaerat illo, ex, unde nemo quae aliquam pariatur cum. Magni soluta fuga numquam dolorum consectetur eligendi iusto commodi, quas fugiat voluptates earum fugit eum hic ducimus! Ratione illo temporibus in quae dolorum corrupti ducimus?</p>        
+        </div>
+        <div class="col-md-6">
+          <img src="./img/carousel1.jpg" alt="Karausel" class="img-fluid rounded-circle about-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nagap">
+    <div class="container text-white text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card bg-danger">
+            <i class="fas fa-building fa-4x"></i>
+            <h3>Sample Heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse odio eveniet beatae harum vero vel!</p>
+          </div>
+        </div>
+        <div class="col-md-4"> 
+          <div class="card">
+            <i class="fas fa-bell fa-4x"></i>
+            <h3>Sample Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex culpa itaque molestiae quasi odit necessitatibus!</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-danger">
+            <i class="fas fa-comments fa-4x"></i>
+            <h3>Sample Heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse odio eveniet beatae harum vero vel!</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mt-4 mb-4">
+        <div class="col-md-4">
+          <div class="card">
+            <i class="fas fa-store fa-4x"></i>
+            <h3>Sample Heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse odio eveniet beatae harum vero vel!</p>
+          </div>
+        </div>
+        <div class="col-md-4"> 
+          <div class="card bg-danger">
+            <i class="fas fa-money-check fa-4x"></i>
+            <h3>Sample Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex culpa itaque molestiae quasi odit necessitatibus!</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <i class="fas fa-beer fa-4x"></i>
+            <h3>Sample Heading</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse odio eveniet beatae harum vero vel!</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Glozzom</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/popper.js"></script>
+  <script src="vendors/js/bootstrap.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+  </script>
+
+</body>
+
+</html>

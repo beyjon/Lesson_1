@@ -1,0 +1,94 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('../img/image1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../img/image2.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../img/image3.jpg');
+  background-size: cover;
+}
+
+#home-icons {
+  margin: ;
+}
+
+#bg-box {
+  background-image: url(../img/lights.jpg);
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+.dark-overly {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#what-we-do {
+  background-image: url(../img/media.jpg);
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+#newsletter {
+  background-color: slategrey;
+}
+
+.form-control {
+  width: 300px;
+}
+
+#main-footer {
+  background-color: black;
+  color: #fff;
+}
+
+#about-us {
+  background-image: url(../img/image1.jpg);
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+.about-img {
+  margin-top: -90px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.nagap {
+  text-align: center;
+  font-family: sans-serif;
+}
+.card {
+  background-color: black;
+}
